@@ -1,0 +1,46 @@
+
+$primary:    #6610f2;
+$secondary:  #ffff00;
+$success:    #7effd8;
+$info:       #085833;
+$warning:    #f397c5;
+$danger:     #8d0512;
+$light:      #9eedfc;
+$dark:       #003743;
+
+@import './node_modules/bootstrap/scss/functions';
+@import './node_modules/bootstrap/scss/variables';
+@import './node_modules/bootstrap/scss/mixins';
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+html {
+    font-size: 0.2rem;
+  }
+
+  @include media-breakpoint-up(xs) {
+    html {
+      font-size: 0.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 0.6rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1rem;
+    }
+  }
