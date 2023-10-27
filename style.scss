@@ -18,12 +18,12 @@ $dark:       #003743;
 @import './node_modules/bootstrap/scss/bootstrap.scss';
 
 html {
-    font-size: 0.2rem;
+    font-size: 0.8rem;
   }
 
   @include media-breakpoint-up(xs) {
     html {
-      font-size: 0.4rem;
+      font-size: 0.6rem;
     }
   }
   
@@ -41,6 +41,6 @@ html {
   
   @include media-breakpoint-up(lg) {
     html {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
